@@ -8,13 +8,13 @@
     <meta name="keywords" content="HTML, CSS, JavaScript">
     <link rel="icon" type="image/svg" href="./assets/img/favicon.svg" />
     <title>Meu Perfil</title>
-    <link rel="stylesheet" href="./assets/img/css/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
     <!-- Cabeçalho da Página (header) -->
     <header>
         <!-- Div Conteudo do Cabeçalho  (header) -->
-        <div id="header_content">
+        <div id="header_content" class="flex">
             <!-- Titulo do Cabeçalho -->
             <div id="titulo">
                 <!-- Seu nome -->
@@ -42,10 +42,13 @@
     <main>
 
         <!-- Seção Sobre você -->
-        <section id="about">
+        <section id="about" class="flex_start">
+            <!-- Titulo da seção -->
             <h2>Sobre Daniele Rangel</h2>
-            <div id="conteudo">
+            <!-- Conteudo da Seção  -->
+            <div id="conteudo" class="flex">
                 <!-- Imagem do criador do conteúdo -->
+                <!-- deixar a imagem redonda sem usar css
                 <svg 
                 width="315"
                 height="315"
@@ -56,7 +59,8 @@
                     </clipPath>
                 </defs>
                 <image width="315" height="315" xlink:href="./assets/img/eu.jpg" clip-path="url(#circleMask)"/>
-            </svg>
+            </svg> -->
+            <img src="./assets/img/eu.jpg" alt="Foto da criadora do conteúdo" class="img_profile"/>
                 <!-- Texto sobre o criador do conteúdo -->
                 <article id="sobre_texto">
                     <p>
@@ -88,9 +92,9 @@
         </section>
 
         <!-- Seção contendo um vídeo de sua preferência -->
-        <section id="video">
+        <section id="video" class="flex">
             <h2>Meu vídeo favorito:</h2>
-            <div id="youtube">
+            <div id="youtube" class="flex">
                 <iframe
                 width="560"
                 height="315"
@@ -105,22 +109,20 @@
 
     </main>
     <!-- Rodapé da Página (footer) -->
-    <footer>
+    <footer class="flex">
         <!-- Seção de Contato - Redes Sociais-->
         <section id="redes_sociais">
 
             <a href="https://www.linkedin.com/in/daniele-c-rangel/">
-                <img src="assets/img/linkedin.svg" alt="LinkedIn" />
+                <img src="assets/img/linkedin.svg" alt="LinkedIn" class="social_icon" />
             </a>
             <a href="https://github.com/DanieleRangel">
-                <img src="assets/img/github.svg" alt="Github" />
+                <img src="assets/img/github.svg" alt="Github"class="social_icon" />
             </a>
             <a href="">
-                <img src="assets/img/instagram.svg" alt="Instagram" />
+                <img src="assets/img/instagram.svg" alt="Instagram"class="social_icon" />
             </a>
-
     </section>
-
     <h3>
         Feito com 🧡 por Daniele Rangel - 2025
     </h3>
