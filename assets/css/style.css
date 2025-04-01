@@ -106,6 +106,7 @@ p {
 
 .img_profile{
     width: 200px;
+    border-radius: 50%;
 }
 
 #video{
@@ -113,9 +114,7 @@ p {
     margin: 2rem auto;
     width: 90%;
 }
-img {
-    border-radius: 50%;
-}
+
 
 footer{
     flex-direction: column;
@@ -171,6 +170,12 @@ form{
     border: none;
 }
 
+form label {
+    font-size: 1rem;
+    text-align: left;
+    font-weight: 500;  
+}
+
 form input,
     textarea {
         margin: 0.5rem 0 1rem;
@@ -193,7 +198,7 @@ form span{
     color: red;
 }
 
-form buttom{
+form button{
     text-align: center;
     padding: 0.75rem 2rem;
     background-color: var(--purple-800);
@@ -201,6 +206,7 @@ form buttom{
     border-radius: 0.75rem;
     font-weight: 700;
     font-size: 1rem;
+    color:var(--white);
 }
 
 form button:hover{
