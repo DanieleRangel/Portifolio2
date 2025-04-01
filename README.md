@@ -3,6 +3,7 @@
 🎨 Bem-vindo ao repositório do meu portfólio pessoal! 
 
 📌 Índice
+
 📖 Sobre
 
 🛠 Tecnologias Utilizadas
@@ -11,10 +12,12 @@
 
 📩 Contato
 
+
 📖 Sobre
-Este portfólio foi desenvolvido para apresentar minhas habilidades em desenvolvimento web, incluindo projetos anteriores, competências técnicas e informações de contato.
+Este portfólio foi desenvolvido para  apresentar minhas primeiras habilidades em desenvolvimento web.
 
 🛠 Tecnologias Utilizadas
+
 🚀 Front-end:
 
 🌐 HTML5 – Marcação semântica e estruturação do conteúdo
